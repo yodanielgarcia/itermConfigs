@@ -1,0 +1,108 @@
+Last login: Wed May 11 17:33:15 on ttys007
+source ~/.bash_profile
+danielgarcia@EPCOBOGW0277 ~ % source ~/.bash_profile
+danielgarcia@EPCOBOGW0277 ~ % cd Documents/Dev/nordstrom/jwn-catalog
+danielgarcia@EPCOBOGW0277 jwn-catalog % git branch
+  DeplaySP
+  DeployReleaseSpring22
+  DeploySP
+  PVO-57224
+  PVO-60513/fixStatusDrawerIcons
+  bugfix-pvo-60508
+* feat-pvo60513
+  master
+  pvo-58933/feature-Rebrand
+danielgarcia@EPCOBOGW0277 jwn-catalog % cd ..
+danielgarcia@EPCOBOGW0277 nordstrom % cd ..
+danielgarcia@EPCOBOGW0277 Dev % git clone https://github.com/yodanielgarcia/itermConfigs.git
+Cloning into 'itermConfigs'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+danielgarcia@EPCOBOGW0277 Dev % cd itermConfigs
+danielgarcia@EPCOBOGW0277 itermConfigs % ls
+README.md			com.googlecode.iterm2.plist
+danielgarcia@EPCOBOGW0277 itermConfigs % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	com.googlecode.iterm2.plist
+
+nothing added to commit but untracked files present (use "git add" to track)
+danielgarcia@EPCOBOGW0277 itermConfigs % git add .
+danielgarcia@EPCOBOGW0277 itermConfigs % git commit -m "first config file iterm"
+[main 64acc07] first config file iterm
+ 1 file changed, 2210 insertions(+)
+ create mode 100644 com.googlecode.iterm2.plist
+danielgarcia@EPCOBOGW0277 itermConfigs % git push
+Username for 'https://github.com': yodanielgarcia
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>AlternateMouseScroll</key>
+        <true/>
+        <key>AppleAntiAliasingThreshold</key>
+        <integer>1</integer>
+        <key>ApplePressAndHoldEnabled</key>
+        <false/>
+        <key>AppleScrollAnimationEnabled</key>
+        <integer>0</integer>
+        <key>AppleSmoothFixedFontsSizeThreshold</key>
+        <integer>1</integer>
+        <key>AppleWindowTabbingMode</key>
+        <string>manual</string>
+        <key>Command</key>
+        <string></string>
+        <key>Custom Color Presets</key>
+        <dict>
+                <key>CodelyTV</key>
+                <dict>
+"com.googlecode.iterm2.plist" 2210L, 56317B
+                <key>CodelyTV</key>
+                <dict>
+                        <key>Ansi 0 Color</key>
+                        <dict>
+                                <key>Alpha Component</key>
+                                <real>1</real>
+                                <key>Blue Component</key>
+                                <real>0.15686275064945221</real>
+                                <key>Color Space</key>
+                                <string>sRGB</string>
+                                <key>Green Component</key>
+                                <real>0.15686275064945221</real>
+                                <key>Red Component</key>
+                                <real>0.15686275064945221</real>
+                        </dict>
+                        <key>Ansi 1 Color</key>
+                        <dict>
+                                <key>Alpha Component</key>
+                                <real>1</real>
+                                <key>Blue Component</key>
+                                <real>0.40756040811538696</real>
+                                <key>Color Space</key>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>AlternateMouseScroll</key>
+        <true/>
+        <key>AppleAntiAliasingThreshold</key>
+        <integer>1</integer>
+        <key>ApplePressAndHoldEnabled</key>
+        <false/>
+        <key>AppleScrollAnimationEnabled</key>
+        <integer>0</integer>
+        <key>AppleSmoothFixedFontsSizeThreshold</key>
+        <integer>1</integer>
+        <key>AppleWindowTabbingMode</key>
+        <string>manual</string>
+        <key>Command</key>
+        <string></string>
+        <key>Custom Color Presets</key>
+        <dict>
+                <key>CodelyTV</key>
+                <dict>
